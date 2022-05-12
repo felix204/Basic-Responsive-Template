@@ -1,0 +1,35 @@
+
+/* Color Palette */
+
+.bg-dark {
+    background: #333333;
+}
+
+
+
+/* Container */
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+
+/* Header */
+
+.header-small {
+    font-size: 1.25rem;
+}
+
+.header-medium {
+    font-size: 1.5rem;
+}
+
+.header-large {
+    font-size: 2rem;
+}
+
+.opacity-fade {
+    opacity: 0.6;
+}

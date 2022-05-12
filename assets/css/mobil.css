@@ -1,0 +1,19 @@
+
+/* Navbar */
+
+#navbar {
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+}
+
+#navbar .nav-header {
+    padding-bottom: 1rem;
+}
+
+/* Text */
+
+.t-center {
+    text-align: center;
+}
