@@ -15,9 +15,6 @@ html {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.nav-body {
-    color: #fff;
-}
 
 /* Navbar */
 
@@ -43,6 +40,14 @@ html {
     background: rgba(235, 245, 105, 0.774);
 }
 
+#navbar .nav-header h1 {
+    color: #fff;
+}
+
+#navbar .nav-header p {
+    color: #fff;
+}
+
 .nav-header {
     display: flex;
     flex-direction: column;
@@ -57,7 +62,6 @@ html {
 #body-section-image .body-image {
     width: 100%;
     height: 360px;
-    
 }
 
 
@@ -68,13 +72,9 @@ html {
     max-width: 960px;
     margin: 0 auto;
     position: relative;
+    color: #fff;
 }
 
-#body-section-image .body-container h4 {
-    position: absolute;
-    top: 45%;
-    left: 45%;
-}
 
 
 
@@ -84,6 +84,7 @@ html {
     display: flex;
     flex-direction: row;
     margin: 1.5em;
+    margin-bottom: 2rem;
 }
 
 .body-description {
@@ -105,4 +106,32 @@ html {
 
 #description .body-description .description-header img {
     margin-right: 0.6rem;
+    margin-bottom: 0.4rem;
 }
+
+#description .body-description a{
+    color: blue;
+    align-self: flex-end;
+}
+
+
+/* Photography */
+
+#description-photography .article-part-one {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+#description-photography article {
+    display: flex;
+    flex-direction: row;
+}
+
+#description-photography .photography-img img {
+    margin: 1rem;
+    width: 10rem;
+    height: 11rem;
+
+}
+

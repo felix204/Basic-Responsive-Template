@@ -17,3 +17,21 @@
 .t-center {
     text-align: center;
 }
+
+
+
+/* Description */
+
+#description {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5em;
+    margin-bottom: 2rem;
+}
+
+/* Photography */
+
+#description-photography .article-part-one {
+    display: flex;
+    flex-direction: column;
+}
