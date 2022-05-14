@@ -16,6 +16,9 @@ html {
 }
 
 
+
+
+
 /* Navbar */
 
 #navbar {
@@ -66,6 +69,8 @@ html {
 
 
 
+
+
 /* Body Section */
 
 .body-container {
@@ -74,6 +79,8 @@ html {
     position: relative;
     color: #fff;
 }
+
+
 
 
 
@@ -115,12 +122,18 @@ html {
 }
 
 
+
+
+
+
 /* Photography */
 
 #description-photography .article-part-one {
     width: 50%;
     display: flex;
     flex-direction: row;
+    margin-bottom: 1.2rem;
+    margin-top: 0.3rem;
 }
 
 #description-photography article {
@@ -135,3 +148,97 @@ html {
 
 }
 
+.article-part-one .description {
+    margin-top: 1.5rem;
+}
+
+
+
+
+
+/* Categories */
+
+#categories article{
+    display: flex;
+    flex-direction: row;
+}
+
+#categories .photography-categories {
+    display: flex;
+    flex-direction: column;
+    width: 68%;
+}
+
+#categories .link-categories {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+}
+
+#categories .photography-categories .categories-img img {
+    margin: 1rem;
+    width: 10rem;
+    height: 11rem;
+}
+
+#categories .photography-categories .categories-one {
+    display: flex;
+    flex-direction: row;
+}
+
+#categories .photography-categories .categories-two {
+    display: flex;
+    flex-direction: row;
+}
+
+.categories-one .categories-description {
+    margin-top: 1.5rem;
+}
+
+.categories-one .categories-description a {
+    color: blue;
+    display: flex;
+    margin-top: 1rem;
+    
+}
+.categories-one .categories-description a:hover {
+    color: rgb(185, 247, 71);
+    
+    
+}
+
+.categories-two .categories-description a {
+    color: blue;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.categories-two .categories-description a:hover {
+    color: rgb(185, 247, 71);
+}
+
+#categories .link-categories .header-categories h4{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+
+.link-categories .link ul li{
+    
+}
+
+.link-categories .link {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: bold;
+    border-bottom: 0.5px dashed;
+}
+
+.link-categories .link a{
+    color: black;
+}
+
+.link-categories .link a:hover{
+    color: blue;
+}

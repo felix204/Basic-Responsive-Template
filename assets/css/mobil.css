@@ -35,3 +35,16 @@
     display: flex;
     flex-direction: column;
 }
+
+
+
+/* Categories */
+
+#categories article{
+    display: flex;
+    flex-direction: column;
+}
+
+.link-categories .link  {
+    align-items: center;
+}
